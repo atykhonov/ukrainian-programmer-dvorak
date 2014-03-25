@@ -110,10 +110,12 @@
  ("ø" ?ы)
  ("Ø" ?Ы)
  ("ü" ?э)
- ("Ü" ?Э))
+ ("Ü" ?Э)
+ ("å" ?ъ))
 
 
 (register-input-method
  "ukrainian-programmer-dvorak" "Ukrainian" 'quail-use-package
  "UK" "Ukrainian Programmer Dvorak (Unicode-based for use with KOI8-U encoding)."
  "quail/cyrillic")
+
